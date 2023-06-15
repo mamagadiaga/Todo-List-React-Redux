@@ -18,7 +18,8 @@ const TodoList = () => {
   };
 
   return (
-    <ul className="list-group tache mx-auto text-light">
+    <div className="container">
+      <ul className="list-group tache mx-auto text-light">
       {todos.map((todo) => (
         <li
           key={todo.id}
@@ -40,6 +41,7 @@ const TodoList = () => {
         </li>
       ))}
     </ul>
+    </div>
   );
 };
 

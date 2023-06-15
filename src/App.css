@@ -2,12 +2,12 @@ body {
   text-align: center;
   background: black !important;
 }
-
-  
+ 
 input[type="text"],
 input[type="text"]:focus {
   border: none;
   max-width: 400px;
+  box-shadow: none;
 }
 .tache li {
   background: #423a6f;
